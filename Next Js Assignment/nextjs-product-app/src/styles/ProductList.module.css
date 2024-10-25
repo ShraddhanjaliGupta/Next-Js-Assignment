@@ -1,0 +1,55 @@
+
+.container {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0070f3;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.productTable {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 20px; 
+}
+
+.productTable th,
+.productTable td {
+  border: 1px solid #ddd; 
+  padding: 8px; 
+  text-align: left; 
+}
+
+.productTable th {
+  background-color: #f2f2f2; 
+}
+
+.productTable tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+.productLink {
+  text-decoration: none; 
+  color: #0070f3; 
+}
+
+.productLink:hover {
+  text-decoration: underline;
+}
